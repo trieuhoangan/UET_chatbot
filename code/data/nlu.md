@@ -1,0 +1,76 @@
+## intent:greeting
+- chào
+- sao
+- chào bà
+- chào buổi chiều
+- sao vậy chiều
+- chào buổi sáng
+- chào buổi tối
+- chào cậu 
+- chào mừng
+- chào mừng bạn
+- chào mừng robot
+- chào robot
+- good morning
+- hello
+- hey
+- kính chào
+- kính chào bạn
+- hạnh được làm quen với bạn
+- rất hân hạnh được làm quen
+- rất vui được làm quen
+- xin chào
+- xin chào bạn
+## intent:end_conversation
+- bye
+- goodbye
+- see you soon
+- see you tomorrow
+- see you later
+- good bye
+- we will talk later
+- that is all
+- thank you
+- bye bye
+- just leave
+- go away
+- get out of my way 
+- thanks
+- tạm biệt
+- bái bai
+- bai bai
+- chào bạn nhé
+- gặp lại sau
+- chúng ta sẽ nói chuyện sau nhé
+- xin lỗi nhé mình phải đi có chút việc
+- hẹn gặp lại
+- thôi dừng ở đây nhé
+- hẹn gặp lại sau
+- mình đi trước nhé
+- mình có việc rồi để sau nhé
+- mình đi thôi
+- ừ tôi qua chỗ khác đây
+- tôi có việc rồi chào nhé
+- mình bận mất rồi lúc khác nhé
+- để khi khác tiếp tục nha
+- mình dừng ở đây thôi nhỉ
+- để lần sau nhể
+## intent:ask_point
+- tôi muốn kiểm tra [điểm đầu vào](point) các năm
+- [điểm đầu vào](point) các năm
+- [điểm](point) chuẩn các năm
+- [điểm](point) chuẩn năm nay
+- [điểm](point) chuẩn của [trường đại học công nghệ](school)
+- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) năm nay
+- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) các năm trước
+- [điểm](point) chuẩn vào [trường đại học công nghệ](school)
+- tôi muốn xem [điểm đầu vào](point) của trường
+## intent:ask_falculty
+-  tôi muốn biết thêm về các khoa của đại học công nghệ
+-  tôi muốn biết về khoa [công nghệ thông tin](faculty)
+-  các khoa của [trường đại học công nghệ](school)
+-  tôi muốn biết về khoa [khoa học máy tính](faculty)
+-  [điện tử viễn thông](faculty)
+-  tôi muốn biết thêm thông tin về các ngành học của [trường đại học công nghệ](school)
+## intent:ask_information
+-  tôi muốn biết thêm về [trường đại học công nghệ](school)

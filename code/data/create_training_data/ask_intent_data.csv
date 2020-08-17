@@ -1,0 +1,17 @@
+intent,q,noisy,a
+ask_point,tôi muốn kiểm tra điểm đầu vào các năm
+ask_point,điểm đầu vào các năm
+ask_point,điểm chuẩn các năm
+ask_point,điểm chuẩn năm nay
+ask_point,điểm chuẩn của trường đại học công nghệ
+ask_point,điểm xét đầu vào của trường đại học công nghệ năm nay
+ask_point,điểm xét đầu vào của trường đại học công nghệ các năm trước
+ask_point,điểm chuẩn vào trường đại học công nghệ
+ask_point,tôi muốn xem điểm đầu vào của trường
+ask_faculty, tôi muốn biết thêm về các khoa của đại học công nghệ
+ask_faculty, tôi muốn biết về khoa công nghệ thông tin
+ask_faculty, các khoa của trường đại học công nghệ
+ask_faculty, tôi muốn biết về khoa khoa học máy tính
+ask_faculty, điện tử viễn thông
+ask_faculty, tôi muốn biết thêm thông tin về các ngành học của trường đại học công nghệ
+ask_information, tôi muốn biết thêm về trường đại học công nghệ
