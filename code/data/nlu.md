@@ -38,6 +38,7 @@
 - tôi muốn biết thêm về [trường đại học công nghệ](school)
 - giới thiệu về [trường đại học công nghệ](school)
 - sơ qua về đại học công nghệ
+- nói qua về đại học công nghệ
 ## intent:ask_information/faculty
 - tôi muốn biết thêm về các khoa của [đại học công nghệ](school)
 - [đại học công nghệ](school) có bao nhiêu khoa
@@ -86,13 +87,59 @@
 - học đại học công nghệ xong có thể làm những gì
 - định hướng tương lai cho sinh viên như thế nào
 - định hướng tương lai cho sinh viên đại học công nghệ
-<!-- ## intent:ask_information/faculty_fit_future
-- 
+## intent:ask_information/faculty_fit_future
+- định hướng việc làm của sinh viên ngành công nghệ thông tin là gì
+- sự nghiệp tương lai của sinh viên ngành công nghệ thông tin như thế nào
+- sinh viên học ngành công nghệ thông tin sau khi ra trường có thể làm được những gì
+- sinh viên học khoa công nghệ thông tin tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành công nghệ thông tin đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học công nghệ thông tin thì có thể làm gì
 ## intent:ask_information/faculty_fet_future
-## intent:ask_information/faculty_nano_future
+- định hướng việc làm của sinh viên ngành điện tử viễn thông là gì
+- sự nghiệp tương lai của sinh viên ngành điện tử viễn thông như thế nào
+- sinh viên học ngành điện tử viễn thông sau khi ra trường có thể làm được những gì
+- sinh viên học khoa điện tử viễn thông tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành điện tử viễn thông đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học điện tử viễn thông thì có thể làm gì
+<!-- ## intent:ask_information/faculty_nano_future
+- định hướng việc làm của sinh viên ngành vật lý kỹ thuật và công nghệ nano là gì
+- sự nghiệp tương lai của sinh viên ngành vật lý kỹ thuật như thế nào
+- sinh viên học ngành công nghệ nano sau khi ra trường có thể làm được những gì
+- sinh viên học khoa vật lý kỹ thuật và công nghệ nano tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành công nghệ nano  đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học khoa vật lý kỹ thuật thì có thể làm gì
 ## intent:ask_information/faculty_auto_future
+- định hướng việc làm của sinh viên ngành cơ học kỹ thuật và tự động hóa là gì
+- sự nghiệp tương lai của sinh viên ngành cơ học kỹ thuật như thế nào
+- sinh viên học ngành cơ học kỹ thuật sau khi ra trường có thể làm được những gì
+- sinh viên học khoa tự động hóa tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành cơ học kỹ thuật  đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học khoa tự động hóa thì có thể làm gì
 ## intent:ask_information/faculty_ag_future
+- định hướng việc làm của sinh viên ngành công nghệ nông nghiệp là gì
+- sự nghiệp tương lai của sinh viên ngành công nghệ nông nghiệp như thế nào
+- sinh viên học ngành công nghệ nông nghiệp sau khi ra trường có thể làm được những gì
+- sinh viên học khoa công nghệ nông nghiệp tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp công nghệ nông nghiệp đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học khoa công nghệ nông nghiệp thì có thể làm gì
 ## intent:ask_information/faculty_ae_future
+- định hướng việc làm của sinh viên viện công nghệ hàng không vũ trụ là gì
+- sự nghiệp tương lai của sinh viên ngành hàng không vũ trụ như thế nào
+- sinh viên học ngành công nghệ hàng không vũ trụ sau khi ra trường có thể làm được những gì
+- sinh viên học khoa công nghệ hàng không vũ trụ tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp hàng không vũ trụ  đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học hàng không vũ trụ thì có thể làm gì
 ## intent:ask_information/faculty_advtech_future
-## intent:ask_information/faculty_building_future -->
-
+- định hướng việc làm của sinh viên ngành tiên tiến về kỹ thuật và công nghệ là gì
+- sự nghiệp tương lai của sinh viên ngành tiên tiến về kỹ thuật và công nghệ như thế nào
+- sinh viên học ngành tiên tiến về kỹ thuật và công nghệ sau khi ra trường có thể làm được những gì
+- sinh viên học khoa tiên tiến về kỹ thuật và công nghệ tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành tiên tiến về kỹ thuật và công nghệ đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học khoa tiên tiến về kỹ thuật và công nghệ thì có thể làm gì
+## intent:ask_information/faculty_building_future
+- định hướng việc làm của sinh viên bộ môn công nghệ xây dựng - giao thông là gì
+- sự nghiệp tương lai của sinh viên ngành công nghệ xây dựng như thế nào
+- sinh viên học ngành công nghệ xây dựng - giao thông sau khi ra trường có thể làm được những gì
+- sinh viên học bộ môn công nghệ xây dựng - giao thông tốt nghiệp xong thì có gì chờ đợi
+- tốt nghiệp ngành xây dựng  đại học công nghệ thì sẽ có lợi ích gì
+- sinh viên sau khi hoàn thành chương trình học khoa công nghệ xây dựng thì có thể làm gì -->
