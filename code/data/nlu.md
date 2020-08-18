@@ -101,7 +101,7 @@
 - sinh viên học khoa điện tử viễn thông tốt nghiệp xong thì có gì chờ đợi
 - tốt nghiệp ngành điện tử viễn thông đại học công nghệ thì sẽ có lợi ích gì
 - sinh viên sau khi hoàn thành chương trình học điện tử viễn thông thì có thể làm gì
-<!-- ## intent:ask_information/faculty_nano_future
+## intent:ask_information/faculty_nano_future
 - định hướng việc làm của sinh viên ngành vật lý kỹ thuật và công nghệ nano là gì
 - sự nghiệp tương lai của sinh viên ngành vật lý kỹ thuật như thế nào
 - sinh viên học ngành công nghệ nano sau khi ra trường có thể làm được những gì
@@ -142,4 +142,4 @@
 - sinh viên học ngành công nghệ xây dựng - giao thông sau khi ra trường có thể làm được những gì
 - sinh viên học bộ môn công nghệ xây dựng - giao thông tốt nghiệp xong thì có gì chờ đợi
 - tốt nghiệp ngành xây dựng  đại học công nghệ thì sẽ có lợi ích gì
-- sinh viên sau khi hoàn thành chương trình học khoa công nghệ xây dựng thì có thể làm gì -->
+- sinh viên sau khi hoàn thành chương trình học khoa công nghệ xây dựng thì có thể làm gì
