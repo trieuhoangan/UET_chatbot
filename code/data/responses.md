@@ -38,7 +38,7 @@
 * ask_information/faculty_nano_future
     - làm công nghệ nano
 
-## intent:ask_information/faculty_auto_future
+## faculty_auto_future
 * ask_information/faculty_auto_future
     - làm các thiết bị máy tự động
 
@@ -53,7 +53,7 @@
 ## faculty_advtech_future
 * ask_information/faculty_advtech_future
     - thực hiện các kỹ thuật, công nghệ tiên tiến
-    
+
 ## faculty_building_future
 * ask_information/faculty_building_future
     - cải tiến các quy trình xây dựng - giao thông bằng công nghệ cao
