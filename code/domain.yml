@@ -20,12 +20,30 @@ responses:
 
   utter_goodbye:
   - text: "Bye"
-
+  
+  utter_continue:
+  - text: "Bạn có muốn hỏi thêm gì nữa không ?"
 entities:
   - school
   - point
   - faculty
   - question
+
+actions:
+  - respond_ask_information
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+slots:
+  faculty:
+    type: unfeaturized
+    auto_fill: false
+  school:
+    type: unfeaturized
+    auto_fill: false
+  point: 
+    type: unfeaturized
+    auto_fill: false
+  question:
+    type: unfeaturized
+    auto_fill: false

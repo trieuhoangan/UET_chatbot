@@ -1,51 +1,87 @@
 #### This file contains tests to evaluate that your bot behaves as expected.
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
-## happy path 1
-* greet: hello there!
+## normal path
+* greeting: xin chào
   - utter_greet
-* mood_great: amazing
-  - utter_happy
+* ask_point: tôi muốn tra cứu điểm chuẩn của đại học công nghệ
+  - utter_ask_point
 
-## happy path 2
-* greet: hello there!
+## normal path 3
+* greeting: chào bạn
   - utter_greet
-* mood_great: amazing
-  - utter_happy
-* goodbye: bye-bye!
-  - utter_goodbye
+* ask_information: khoa công nghệ thông tin của trường đại học công nghệ học những gì
+ - respond_ask_information
+ - utter_continue
 
-## sad path 1
-* greet: hello
+
+## normal path 3
+* greeting: hello
   - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm: yes
-  - utter_happy
+* ask_information: tôi muốn tìm hiểu về điều kiện xét tuyển vào trường đại học công nghệ
+ - respond_ask_information
+ - utter_continue
 
-## sad path 2
-* greet: hello
+## normal path 4
+* ask_information: tôi muốn biết định hướng tương lai nếu học đại học công nghệ
+  - respond_ask_information
+  - utter_continue
+## normal path 3
+* greeting: chào bạn
   - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: not really
-  - utter_goodbye
+* ask_information: để xét tuyển vào đại học công nghệ cần những gì
+ - respond_ask_information
+ - utter_continue
 
-## sad path 3
-* greet: hi
-  - utter_greet
-* mood_unhappy: very terrible
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: no
-  - utter_goodbye
+## normal path 4
+* ask_information: học đại học công nghệ thì có thể có tương lai như thế nào
+ - respond_ask_information
+ - utter_continue
 
-## say goodbye
-* goodbye: bye-bye!
-  - utter_goodbye
+ ## normal path 4
+* ask_information: địa điểm để nộp hồ sơ đăng ký nguyện vọng vào trường đại học công nghệ
+ - respond_ask_information
+ - utter_continue
 
-## bot challenge
-* bot_challenge: are you a bot?
-  - utter_iamabot
+## normal path 4
+* ask_information: không nộp hồ sơ đúng hạn có làm sao không
+ - respond_ask_information
+ - utter_continue
+
+## normal path 4
+* ask_information: nộp hồ sơ muộn không sao đúng không
+ - respond_ask_information
+ - utter_continue
+
+## normal path 4
+* ask_information: nộp hồ sơ đợt hai ở đâu
+ - respond_ask_information
+ - utter_continue
+
+## normal path 4
+* ask_information: nộp hồ sơ muộn thì nộp ở đâu
+ - respond_ask_information
+ - utter_continue
+
+ 
+## normal path 4
+* ask_information: hạn cuối để nộp hồ sơ đợt một vào đại học công nghệ
+ - respond_ask_information
+ - utter_continue
+
+
+## normal path 4
+* ask_information: khi nào không nộp được hồ sơ cho trường
+ - respond_ask_information
+ - utter_continue
+
+
+## normal path 4
+* ask_information: khi nào không thể nộp lại hồ sơ cho trường đại học công nghệ nữa
+ - respond_ask_information
+ - utter_continue
+
+## normal path 4
+* ask_information: các ngành học của đại học công nghệ
+ - respond_ask_information
+ - utter_continue

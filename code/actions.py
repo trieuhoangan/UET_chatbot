@@ -7,32 +7,34 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-from typing import Any, Text, Dict, List, Union
+from typing import Text, List, Optional, Union, Any, Dict, Tuple
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import SlotSet
+from rasa.core.domain import Domain
+from enum import Enum
+from rasa.core.actions.action import (
+    ActionExecutionRejection,
+    RemoteAction,
+    ACTION_LISTEN_NAME,
+)
+# logger = logging.getLogger(__name__)
+# class SlotMapping(Enum):
+#     FROM_ENTITY = 0
+#     FROM_INTENT = 1
+#     FROM_TRIGGER_INTENT = 2
+#     FROM_TEXT = 3
+#     def __str__(self) -> Text:
+#         return self.name.lower()
 
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
-class PointFormActino(Action):
+class PointFormActinon(Action):
     def name(self) -> Text:
         return "point_form"
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
-        return ["faculty", "year"]
+        return ["faculty"]
     def submit(
         self,
         dispatcher: CollectingDispatcher,
@@ -84,6 +86,7 @@ class PointFormActino(Action):
             # validation failed, set this slot to None, meaning the
             # user will be asked for the slot again
             return {"faculty": None}    
-    def from_entity(self,entity,not_intent):
-        
-        pass
+    # def run(self, dispatcher, tracker, domain):
+    #     pass
+    # def from_entity(self,entity,not_intent):
+    #     return [SlotSet("account_type",entity)]
