@@ -1,0 +1,131 @@
+{
+  "đại học công nghệ là một trường thành viên của đại học quốc gia": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "phòng 105, tòa nhà e3, số 144, Xuân Thủy, Cầu Giấy, Hà Nội": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "cải tiến các công nghệ ứng dụng trong nông nghiệp": {
+    "precision": 0.5454545454545454,
+    "recall": 1.0,
+    "f1-score": 0.7058823529411764,
+    "support": 6,
+    "confused_with": {}
+  },
+  "cải tiến các quy trình xây dựng -giao thông bằng công nghệ cao": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "làm robot": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6,
+    "confused_with": {}
+  },
+  "hạn nộp hồ sơ là ngày 20/8/2020": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "làm công nghệ nano": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "làm các thiết bị máy tự động": 4,
+      "cải tiến các công nghệ ứng dụng trong nông nghiệp": 1,
+      "có khả năng làm việc độc lập, xử lý các vấn đề liên quan đến công nghệ cao trong cuộc sống.": 1
+    }
+  },
+  "có khả năng làm việc độc lập, xử lý các vấn đề liên quan đến công nghệ cao trong cuộc sống.": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "đại học công nghệ có các tổng cộng 8 khoa, viện và bộ môn bao gồm : khoa công nghệ thông tin, khoa điện tử viễn thông, khoa vật lý kỹ thuật và công nghệ nano, cơ học kỹ thuật và tự động hóa, công nghệ nông nghiệp, viện công nghệ hàng không vũ trụ, viện tiên tiến về kỹ thuật và công nghệ và bộ môn công nghệ xây dựng -giao thông": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "thực hiện các kỹ thuật, công nghệ tiên tiến": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "làm các thiết bị máy tự động": 6
+    }
+  },
+  "thực hiện các công nghệ hỗ trợ ngành hàng không": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6,
+    "confused_with": {
+      "cải tiến các quy trình xây dựng -giao thông bằng công nghệ cao": 1
+    }
+  },
+  "việc tuyển sinh có 3 phương thức : tuyển thẳng, ưu tiên xét tuyển và xét tuyển.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "làm các thiết bị máy tự động": {
+    "precision": 0.375,
+    "recall": 1.0,
+    "f1-score": 0.5454545454545454,
+    "support": 6,
+    "confused_with": {}
+  },
+  "làm lập trình viên": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "cải tiến các công nghệ ứng dụng trong nông nghiệp": 4,
+      "làm robot": 2
+    }
+  },
+  "Bạn vẫn có thể nộp hồ sơ ứng tuyển vào đại học công nghệ đợt 2 vào ngày 10/9 nhé.": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "accuracy": 0.7978723404255319,
+  "macro avg": {
+    "precision": 0.6935064935064935,
+    "recall": 0.788888888888889,
+    "f1-score": 0.7249320614026495,
+    "support": 94
+  },
+  "weighted avg": {
+    "precision": 0.7052189831445151,
+    "recall": 0.7978723404255319,
+    "f1-score": 0.7359278602082108,
+    "support": 94
+  }
+}

@@ -1,110 +1,40 @@
-## intent:greeting
-- chào
-- sao
-- chào bà
-- chào bạn
-- chào buổi chiếu
-- chào buổi chiều
-- sao vậy chiều
-- chào buổi sáng
-- chào buổi tối
-- chào cậu 
-- cho cậu
-- sao cậu
-- sao vậy
-- chào mừng
-- chào mừng bạn
-- chào mừng robot
-- chào robot
-- good morning
-- hai robot
-- hello
-- hey
-- robot
-- kính chào
-- kính chào bạn
-- mày robot
-- này robot
-- nhảy robot
-- gà tấn hàng được làm quen
-- hạnh được làm quen với bạn
-- làm quen
-- rất hân hạnh được làm quen
-- rất vui được làm quen
-- robot yêu ơi
-- xin chào
-- xin chào bạn
-## intent:end_conversation
-- bye
-- goodbye
-- see you soon
-- see you tomorrow
-- see you later
-- good bye
-- we will talk later
-- that is all
-- thank you
-- bye bye
-- just leave
-- go away
-- get out of my way 
-- get the fuck off
-- thanks
-- tạm biệt
-- bái bai
-- bai bai
-- chào bạn nhé
-- gặp lại sau
-- chúng ta sẽ nói chuyện sau nhé
-- xin lỗi nhé mình phải đi có chút việc
-- đi chỗ khác đi
-- hẹn gặp lại
-- thôi dừng ở đây nhé
-- tránh ra
-- đi nhá
-- đi nha
-- đi đây
-- hẹn gặp lại sau
-- cảm ơn nhé
-- tôi đi đây
-- mình đi trước nhé
-- mình có việc rồi để sau nhé
-- mình đi thôi
-- ừ tôi qua chỗ khác đây
-- tôi có việc rồi chào nhé
-- mình bận mất rồi lúc khác nhé
-- lúc khác nói chuyện sau
-- để khi khác tiếp tục nha
-- mình dừng ở đây thôi nhỉ
-- để lần sau nhể
-- sau này gặp lại
-- dừng ở đây thôi
-- thôi nhé
-- thôi nhỉ
-- dừng đây thôi ha
-- mình ra nơi khác ha
-- thôi mình không nói chuyện nữa nhá
-- để sau đi nha
-- ừ thôi làm việc của bạn đi
-- đi ra chỗ kia đi
-- ra khỏi đây đi
 ## intent:ask_point
-- tôi muốn kiểm tra [[điểm](point) đầu vào](point) các năm
-- [[điểm](point) đầu vào](point) các năm
-- [điểm](point) chuẩn các năm
-- [điểm](point) chuẩn năm nay
-- [điểm](point) chuẩn của [trường đại học công nghệ](school)
-- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) năm nay
-- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) các năm trước
-- [điểm](point) chuẩn vào [trường đại học công nghệ](school)
-- tôi muốn xem [[điểm](point) đầu vào](point) của trường
+- tôi muốn kiểm tra điểm đầu vào các năm
+- điểm đầu vào các năm
+- điểm chuẩn các năm
+- điểm chuẩn [năm nay](year)
+- điểm chuẩn của [trường đại học công nghệ](school)
+- điểm xét đầu vào của [trường đại học công nghệ](school) [năm nay](year)
+- điểm xét đầu vào của [trường đại học công nghệ](school) các năm trước
+- điểm chuẩn vào [trường đại học công nghệ](school)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2020](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2020](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2016](year)
+- tôi muốn xem điểm đầu vào của trường
 ## intent:ask_faculty
 -  tôi muốn biết thêm về các khoa của đại học công nghệ
 -  tôi muốn biết về khoa [công nghệ thông tin](faculty)
 -  các khoa của [trường đại học công nghệ](school)
--  tôi muốn biết về khoa [khoa học máy tính](faculty)
+-  tôi muốn biết về khoa khoa học máy tính
 -  [điện tử viễn thông](faculty)
 -  tôi muốn biết thêm thông tin về các ngành học của [trường đại học công nghệ](school)
 ## intent:ask_information
 -  tôi muốn biết thêm về [trường đại học công nghệ](school)
--  giới thiệu về [trường đại học công nghệ](school)

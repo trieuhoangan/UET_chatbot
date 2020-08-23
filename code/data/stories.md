@@ -3,6 +3,9 @@
   - utter_greet
 * ask_point
   - utter_ask_point
+  - point_form
+  - form{"name":"point_form"}
+  - form{"name":null}
 ## normal path 2
 * greeting
   - utter_greet
@@ -26,5 +29,10 @@
 * ask_faculty
  - utter_ask_falculty
 
-
+## normal path 6
+* ask_point
+  - utter_ask_point
+  - point_form
+  - form{"name":"point_form"}
+  - form{"name":null}
 

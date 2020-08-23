@@ -7,7 +7,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "xin chào"
 
   utter_ask_point:
   - text: "25"
@@ -28,9 +28,11 @@ entities:
   - point
   - faculty
   - question
-
+form: 
+  - point_form
 actions:
   - respond_ask_information
+  - point_form
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -22,15 +22,36 @@
 - gặp lại sau
 - chúng ta sẽ nói chuyện sau nhé
 ## intent:ask_point
-- tôi muốn kiểm tra [điểm đầu vào](point) các năm
-- [điểm đầu vào](point) các năm
-- [điểm](point) chuẩn các năm
-- [điểm](point) chuẩn năm nay
-- [điểm](point) chuẩn của [trường đại học công nghệ](school)
-- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) năm nay
-- [điểm](point) xét đầu vào của [trường đại học công nghệ](school) các năm trước
-- [điểm](point) chuẩn vào [trường đại học công nghệ](school)
-- tôi muốn xem [điểm đầu vào](point) của trường
+- tôi muốn kiểm tra điểm đầu vào các năm
+- điểm đầu vào các năm
+- điểm chuẩn các năm
+- điểm chuẩn [năm nay](year)
+- điểm chuẩn của [trường đại học công nghệ](school)
+- điểm xét đầu vào của [trường đại học công nghệ](school) [năm nay](year)
+- điểm xét đầu vào của [trường đại học công nghệ](school) các năm trước
+- điểm chuẩn vào [trường đại học công nghệ](school)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ thông tin](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [điện tử viễn thông](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [vật lý kỹ thuật](faculty) và [công nghệ nano](faculty) năm [2016](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2020](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [cơ học kỹ thuật](faculty) và [tự động hóa](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2020](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2019](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2018](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2017](year)
+- điểm chuẩn vào khoa [công nghệ nông nghiệp](faculty) năm [2016](year)
+- tôi muốn xem điểm đầu vào của trường
 ## intent:ask_falculty
 -  tôi muốn biết về khoa [công nghệ thông tin](faculty)
 -  [điện tử viễn thông](faculty)

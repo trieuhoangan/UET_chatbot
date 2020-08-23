@@ -1,6 +1,5 @@
 entity,value,antonym
 action,question,"đâu,ở đâu,chỗ nào,câu hỏi,thắc mắc"
-object,point,"điểm thi,điểm đầu vào,điểm"
 object,school,"trường đại học quốc gia hà nôi,trường đại học công nghệ"
-object,faculty,"công nghệ thông tin,khoa học máy tính,hệ thống thông tin,cơ kỹ thuật,điện tử viễn thông"
-object,year,"2020,2019,2018,2017,2016,2015"
+object,faculty,"công nghệ thông tin,cơ kỹ thuật,điện tử viễn thông,vật lý kỹ thuật,công nghệ nano,tự động hóa,cơ học kỹ thuật,công nghệ nông nghiệp"
+object,year,"2020,2019,2018,2017,2016,2015,năm nay"

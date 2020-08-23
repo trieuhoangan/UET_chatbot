@@ -1,0 +1,293 @@
+[
+  {
+    "text": "điểm xét đầu vào của trường đại học công nghệ các năm trước",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "điểm",
+        "entity": "point"
+      },
+      {
+        "start": 21,
+        "end": 45,
+        "value": "trường đại học công nghệ",
+        "entity": "school"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "point",
+        "start": 0,
+        "end": 4,
+        "value": "điểm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "point",
+        "start": 9,
+        "end": 12,
+        "value": "đầu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school",
+        "start": 21,
+        "end": 45,
+        "value": "trường đại học công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "điểm chuẩn vào trường đại học công nghệ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "điểm",
+        "entity": "point"
+      },
+      {
+        "start": 15,
+        "end": 39,
+        "value": "trường đại học công nghệ",
+        "entity": "school"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "point",
+        "start": 0,
+        "end": 4,
+        "value": "điểm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "point",
+        "start": 11,
+        "end": 14,
+        "value": "vào",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school",
+        "start": 15,
+        "end": 39,
+        "value": "trường đại học công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn xem điểm đầu vào của trường",
+    "entities": [
+      {
+        "start": 13,
+        "end": 25,
+        "value": "điểm đầu vào",
+        "entity": "point"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "point",
+        "start": 13,
+        "end": 25,
+        "value": "điểm đầu vào",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school",
+        "start": 30,
+        "end": 36,
+        "value": "trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết về khoa công nghệ thông tin",
+    "entities": [
+      {
+        "start": 22,
+        "end": 41,
+        "value": "công nghệ thông tin",
+        "entity": "faculty"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 22,
+        "end": 31,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "faculty",
+        "start": 32,
+        "end": 41,
+        "value": "thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết thêm thông tin về các ngành học của trường đại học công nghệ",
+    "entities": [
+      {
+        "start": 50,
+        "end": 74,
+        "value": "trường đại học công nghệ",
+        "entity": "school"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 42,
+        "end": 45,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school",
+        "start": 50,
+        "end": 74,
+        "value": "trường đại học công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn kiểm tra [điểm đầu vào](point) các năm",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "[điểm",
+        "entity": "point"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[điểm đầu vào](point) các năm",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "[điểm",
+        "entity": "point"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn xem [điểm đầu vào](point) của trường",
+    "entities": [
+      {
+        "start": 13,
+        "end": 18,
+        "value": "[điểm",
+        "entity": "point"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tôi muốn biết thêm về các khoa của đại học công nghệ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 35,
+        "end": 52,
+        "value": "đại học công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết về khoa công nghệ thông tin",
+    "entities": [
+      {
+        "start": 22,
+        "end": 41,
+        "value": "công nghệ thông tin",
+        "entity": "faculty"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 22,
+        "end": 31,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "faculty",
+        "start": 32,
+        "end": 41,
+        "value": "thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết về khoa khoa học máy tính",
+    "entities": [
+      {
+        "start": 22,
+        "end": 39,
+        "value": "khoa học máy tính",
+        "entity": "faculty"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 27,
+        "end": 30,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "faculty",
+        "start": 31,
+        "end": 39,
+        "value": "máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn biết thêm thông tin về các ngành học của trường đại học công nghệ",
+    "entities": [
+      {
+        "start": 50,
+        "end": 74,
+        "value": "trường đại học công nghệ",
+        "entity": "school"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "school",
+        "start": 42,
+        "end": 45,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "school",
+        "start": 50,
+        "end": 74,
+        "value": "trường đại học công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

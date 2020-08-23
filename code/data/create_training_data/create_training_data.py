@@ -71,7 +71,7 @@ class LoadData:
 
 if __name__ == "__main__":
     ld = LoadData()
-    ld.load_instinc_data_custom("greeting_end.csv",0,2)
+    # ld.load_instinc_data_custom("greeting_end.csv",0,2)
     ld.load_instinc_data_custom("ask_intent_data.csv",0,1)
     ld.print_training_data('t.md')
     

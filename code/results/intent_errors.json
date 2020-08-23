@@ -1,0 +1,34 @@
+[
+  {
+    "text": "tôi muốn biết về khoa công nghệ thông tin",
+    "intent": "ask_falculty",
+    "intent_prediction": {
+      "name": "ask_faculty",
+      "confidence": 0.9728043675422668
+    }
+  },
+  {
+    "text": "điện tử viễn thông",
+    "intent": "ask_falculty",
+    "intent_prediction": {
+      "name": "ask_faculty",
+      "confidence": 0.9718005657196045
+    }
+  },
+  {
+    "text": "tôi muốn biết thêm về các khoa của đại học công nghệ",
+    "intent": "ask_information",
+    "intent_prediction": {
+      "name": "ask_faculty",
+      "confidence": 0.772952675819397
+    }
+  },
+  {
+    "text": "tôi muốn biết thêm thông tin về các ngành học của trường đại học công nghệ",
+    "intent": "ask_information",
+    "intent_prediction": {
+      "name": "ask_faculty",
+      "confidence": 0.5211986303329468
+    }
+  }
+]
