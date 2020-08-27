@@ -1,0 +1,62 @@
+{
+  "ask_point": {
+    "precision": 0.9230769230769231,
+    "recall": 1.0,
+    "f1-score": 0.9600000000000001,
+    "support": 12,
+    "confused_with": {}
+  },
+  "ask_falculty": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 2,
+    "confused_with": {
+      "ask_faculty": 1
+    }
+  },
+  "ask_faculty": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 6,
+    "confused_with": {
+      "ask_information": 2,
+      "ask_point": 1
+    }
+  },
+  "ask_information": {
+    "precision": 0.9795918367346939,
+    "recall": 1.0,
+    "f1-score": 0.9896907216494846,
+    "support": 96,
+    "confused_with": {}
+  },
+  "greeting": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "end_conversation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "accuracy": 0.9754901960784313,
+  "macro avg": {
+    "precision": 0.8448892377463806,
+    "recall": 0.8055555555555555,
+    "f1-score": 0.8156891943489882,
+    "support": 204
+  },
+  "weighted avg": {
+    "precision": 0.9711653892326162,
+    "recall": 0.9754901960784313,
+    "f1-score": 0.971553803652045,
+    "support": 204
+  }
+}

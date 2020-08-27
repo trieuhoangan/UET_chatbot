@@ -7,7 +7,7 @@
 * ask_point: tôi muốn tra cứu điểm chuẩn của đại học công nghệ
   - utter_ask_point
 
-## normal path 3
+## normal path 2
 * greeting: chào bạn
   - utter_greet
 * ask_information: khoa công nghệ thông tin của trường đại học công nghệ học những gì
@@ -26,19 +26,19 @@
 * ask_information: tôi muốn biết định hướng tương lai nếu học đại học công nghệ
   - respond_ask_information
   - utter_continue
-## normal path 3
+## normal path 5
 * greeting: chào bạn
   - utter_greet
 * ask_information: để xét tuyển vào đại học công nghệ cần những gì
  - respond_ask_information
  - utter_continue
 
-## normal path 4
+## normal path 6
 * ask_information: học đại học công nghệ thì có thể có tương lai như thế nào
  - respond_ask_information
  - utter_continue
 
- ## normal path 4
+ ## normal path 7
 * ask_information: địa điểm để nộp hồ sơ đăng ký nguyện vọng vào trường đại học công nghệ
  - respond_ask_information
  - utter_continue

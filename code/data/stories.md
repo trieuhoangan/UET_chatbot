@@ -8,8 +8,6 @@
   - utter_greet
 * ask_faculty
  - utter_ask_falculty
-
-
 ## normal path 3
 * greeting
   - utter_greet
@@ -25,6 +23,8 @@
 ## normal path 5
 * ask_faculty
  - utter_ask_falculty
-
+## normal path 6
+* greeting
+ - utter_greet
 
 
