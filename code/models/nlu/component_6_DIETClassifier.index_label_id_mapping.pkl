@@ -1,0 +1,1 @@
+{"0": "ask_faculty", "1": "ask_falculty", "2": "ask_information", "3": "ask_point", "4": "end_conversation", "5": "greeting"}

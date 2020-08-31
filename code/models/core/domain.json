@@ -1,0 +1,29 @@
+{
+  "states": [
+    "intent_ask_faculty",
+    "intent_ask_information",
+    "intent_ask_point",
+    "intent_end_conversation",
+    "intent_greeting",
+    "entity_faculty",
+    "entity_point",
+    "entity_question",
+    "entity_school",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_session_start",
+    "prev_action_default_fallback",
+    "prev_action_deactivate_form",
+    "prev_action_revert_fallback_events",
+    "prev_action_default_ask_affirmation",
+    "prev_action_default_ask_rephrase",
+    "prev_action_back",
+    "prev_respond_ask_information",
+    "prev_utter_ask_falculty",
+    "prev_utter_ask_information",
+    "prev_utter_ask_point",
+    "prev_utter_continue",
+    "prev_utter_goodbye",
+    "prev_utter_greet"
+  ]
+}

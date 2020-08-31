@@ -1,0 +1,54 @@
+actions:
+- respond_ask_information
+config:
+  store_entities_as_slots: true
+entities:
+- faculty
+- point
+- question
+- school
+forms: []
+intents:
+- greeting:
+    use_entities: true
+- end_conversation:
+    use_entities: true
+- ask_point:
+    use_entities: true
+- ask_faculty:
+    use_entities: true
+- ask_information:
+    use_entities: true
+responses:
+  utter_ask_falculty:
+  - text: khoa CNTT rất vui
+  utter_ask_information:
+  - text: trường đại học công nghệ rất vui
+  utter_ask_point:
+  - text: '25'
+  utter_continue:
+  - text: Bạn có muốn hỏi thêm gì nữa không ?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  faculty:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  point:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  question:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  school:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot

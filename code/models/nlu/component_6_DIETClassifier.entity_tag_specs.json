@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-faculty",
+      "2": "I-faculty",
+      "3": "L-faculty",
+      "4": "U-faculty",
+      "5": "B-point",
+      "6": "I-point",
+      "7": "L-point",
+      "8": "U-point",
+      "9": "B-school",
+      "10": "I-school",
+      "11": "L-school",
+      "12": "U-school",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-faculty": 1,
+      "I-faculty": 2,
+      "L-faculty": 3,
+      "U-faculty": 4,
+      "B-point": 5,
+      "I-point": 6,
+      "L-point": 7,
+      "U-point": 8,
+      "B-school": 9,
+      "I-school": 10,
+      "L-school": 11,
+      "U-school": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]
